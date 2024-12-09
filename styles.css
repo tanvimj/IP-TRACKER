@@ -253,3 +253,67 @@ h1 {
   right: 10.2%;
   top: 49%;
 }
+
+@media (max-width: 768px) {
+  body, html {
+      overflow: auto; 
+      font-size: 14px; 
+  }
+
+  #bg-video {
+      height: auto;
+      min-height: 100%; 
+      object-fit: cover; 
+  }
+
+  h1 {
+      font-size: 2em; 
+      padding: 0 10px; 
+  }
+
+  .navbar {
+      width: 95%; 
+      height: auto; 
+      padding: 10px; 
+      border-radius: 10px;
+  }
+
+  .navbar ul {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .ui-btn {
+      font-size: 0.9em; 
+      padding: 10px 15px; 
+  }
+
+  #ip-info {
+      width: 90%; 
+      top: 20%; 
+      left: 5%; 
+      transform: none; 
+  }
+
+  #glass-overlay {
+      padding: 10px; 
+  }
+
+  #glass-content {
+      width: 90%; 
+      font-size: 1em; 
+      padding: 15px; 
+  }
+
+  .titletxt1 {
+      font-size: 1.5em;
+      right: 5%;
+      top: 35%; 
+  }
+
+  .titletxt2 {
+      font-size: 1em; 
+      right: 5.2%; 
+      top: 44%; 
+  }
+}
