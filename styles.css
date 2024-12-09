@@ -273,26 +273,24 @@ h1 {
 
   .navbar {
       width: 95%; 
-      height: auto; 
+      height: 25px; 
       padding: 10px; 
       border-radius: 10px;
+      top: 1%;
   }
 
   .navbar ul {
-      flex-direction: column; 
+      flex-direction: row; 
       align-items: center; 
   }
 
   .ui-btn {
-      font-size: 0.9em; 
+      font-size: 0.6em; 
       padding: 10px 15px; 
   }
 
   #ip-info {
-      width: 90%; 
-      top: 20%; 
-      left: 5%; 
-      transform: none; 
+      width: 90%;
   }
 
   #glass-overlay {
@@ -300,20 +298,26 @@ h1 {
   }
 
   #glass-content {
-      width: 90%; 
-      font-size: 1em; 
-      padding: 15px; 
-  }
+    position: absolute;
+    width: 60%; 
+    font-size: 0.7em; 
+    padding: 15px; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 5px; 
+}
+
 
   .titletxt1 {
       font-size: 1.5em;
-      right: 5%;
+      right: 0.2%;
       top: 35%; 
   }
 
   .titletxt2 {
-      font-size: 1em; 
-      right: 5.2%; 
-      top: 44%; 
+      font-size: 0.9em; 
+      right: 0.3%; 
+      top: 40%; 
   }
 }
